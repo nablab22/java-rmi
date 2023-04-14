@@ -9,11 +9,6 @@ public interface calc_mat_Interface extends Remote {
 	public int[][] sub(int[][] A, int[][] B)throws RemoteException;
 	public int[][] multip(int[][] A, int[][] B)throws RemoteException;
 	public int[][] transp(int[][] A)throws RemoteException;
-
-	
-    //public int[][] calculmat(String operation, int[][] A, int[][] B) throws RemoteException;
-    
 	public String login(String identif, String mot_de_passe) throws RemoteException;
-   
 }
 
